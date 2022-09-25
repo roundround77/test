@@ -1,7 +1,3 @@
-def test1():
-    x = 1
-    y = 2
-    assert x == y
 
 def test2():
     x = 3
