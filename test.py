@@ -1,9 +1,18 @@
+def f():
+    return 3
 
-def test2():
-    x = 3
-    y = 3
-    assert x == y
+
+def test_function1():
+    assert f() == 3
     
-def test3():
-    x = 10
-    assert x * x == 100
+def test_function2():
+    assert f() == 3
+    
+def test_function3():
+    assert f() == 3
+    
+def test_function4():
+    assert f() == 3
+    
+def test_function5():
+    assert f() == 3
